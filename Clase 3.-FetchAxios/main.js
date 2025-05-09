@@ -28,7 +28,7 @@ function printTodos(todos){
     });
 }*/
 
-//AXIOS ->Me permite utilizar de manera mas fácil la data del JSON
+//AXIOS ->Me permite utilizar de manera mas fácil las peticiones
 
 axios.get('https://jsonplaceholder.typicode.com/todos/1')
 .then((response) => console.log(response.data))
