@@ -37,3 +37,6 @@ axios.get('https://jsonplaceholder.typicode.com/todos/1')
 })
 .finally(function(){});
 
+/* Estructura para usar await
+const data = await axios.get('https://jsonplaceholder.typicode.com/todos/1')
+*/
