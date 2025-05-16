@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="form-container">
+        <h1>Registra tu cuenta</h1>
+        <form> <!--Action nos permite direccionar un formulario a otro página o vista del sitio-->
+            <label for="user-email">Correo Electrónico</label>
+            <input type="email" id="user-email">
+
+            <label for="user-password">Contraseña</label>
+            <div class="password-container">
+                 <input type="password" id="user-password">
+                 <button class="toggle-password">ver</button>
+            </div>
+
+            <label for="user-password-confirm">Confirma tu Contraseña</label>
+            <div class="password-container">
+                <input type="password" id="user-password-confirm">
+                <button class="toggle-password">ver</button>
+            </div>
+            
+
+            <button id="register-button">Registrarse</button>
+
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
